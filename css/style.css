@@ -316,9 +316,9 @@
      border: solid #eaeaea 1px;
 }
  .button_user a:hover, .button_user a:focus, .button_user a.active {
-     background: #e3d105;
+     background: #ff0000;
      color: #fff;
-     border-color: #e3d105;
+     border-color: #000000;
      color: #222;
 }
  #sidebarCollapse {
@@ -858,11 +858,11 @@
 }
  #sidebar ul li a:hover {
      color: #fff;
-     background: #d8b00f;
+     background: #d80f0f;
 }
  #sidebar ul li.active > a, a[aria-expanded="true"] {
      color: #fff;
-     background: #d8b00f;
+     background: #d80f0f;
 }
  a[data-toggle="collapse"] {
      position: relative;
