@@ -321,6 +321,11 @@
      border-color: #000000;
      color: #222;
 }
+
+.button_user .b:hover{
+     color: rgb(255, 255, 255);
+}
+
  #sidebarCollapse {
      background: transparent;
 }
@@ -402,9 +407,9 @@
      margin-top: 20px;
 }
  .main_bt_border:hover, .main_bt_border:focus {
-     background: #e3d105;
-     border-color: #e3d105;
-     color: #222;
+     background: #e30505;
+     border-color: #e30505;
+     color: rgb(255, 255, 255);
 }
  .theme_color {
      color: #f8c90d !important;
@@ -527,7 +532,6 @@
 }
  .about .about_img {
      height: 100%;
-     background: #d8b00f;
      margin-top: 90px;
 }
  .about .about_img figure {
@@ -690,7 +694,7 @@
      font-size: 18px;
 }
  .send:hover {
-     background: #000;
+     background: rgb(0, 0, 0);
      color: #fff;
 }
  .footer .img-box {
@@ -898,9 +902,7 @@
      color: #fff !important;
 }
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
- .bg_bg {
-    background: url(../images/bg.jpg);
-}
+
  .yellow_bg .title h2 {
      font-weight: bold;
      color: #fff;
